@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="../primeiro_login/login_final.css">
+</head>
+
+<body>
+    <h1 class="login">Login</h1>
+
+    <form  method="get">
+        <fieldset>
+            <legend>Entre com seus dados de acesso</legend>
+            <!-- Nome do Usuário -->
+            <label for="user">Usuário:</label>
+            <input type="text" id="user" required autofocus>  <!-- O atributo require é um atributo boleno (existe ou não), torna o input obrigatório-->
+
+            <!-- Senha do Usuário -->
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" required>
+
+            <div class="actions"> 
+                <input type="reset" value="Apagar" class="botao2">
+                <input type="submit" value="Entrar" class="botao">
+            </div>
+            </fieldset>
+    </form>
+
+</body>
+
+</html>
