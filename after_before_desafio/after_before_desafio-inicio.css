@@ -1,0 +1,30 @@
+ a {
+     display: inline-block;
+     margin-bottom: 1rem;
+ }
+
+ a[target="_blank"]::after {
+     content: url(../after_before_desafio/imagens/newWindow-icon.png);
+     margin-left: .5rem;
+ }
+
+ a[href$=".pdf"]::before {
+     content: url(../after_before_desafio/imagens/pdf-icon.gif);
+     margin-right: .5rem;
+ }
+
+ input[type="checkbox"]:checked+label {
+     color: green;
+ }
+
+ input[type="checkbox"]:not(:disabled) {
+     color: red;
+ }
+
+ input[type="checkbox"]:disabled+label {
+     color: blue;
+ }
+
+ li li :nth-child(3){
+    background-color: yellow;
+ }
